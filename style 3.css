@@ -1,0 +1,24 @@
+
+    #para1{
+        text-align: center;
+        color:blue;
+    }
+    table{
+        text-align: center;
+        color:red;
+    }
+    #id{
+        text-align: center;
+        color:greenyellow;
+    }
+    *{
+        text-align: center;
+        color:rgb(215, 184, 215);
+    }
+   h1{
+    border-color: chocolate;
+   }
+ * {
+    background-color : yellow;
+   }
+
