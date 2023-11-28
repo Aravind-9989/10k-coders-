@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Rain Animation</title>
+</head>
+<style>
+    body {
+  margin: 0;
+  overflow: hidden;
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+
+}
+
+.rain {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.drop {
+  background:white;
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  bottom: 100%;
+  animation: fall linear infinite;
+}
+
+
+@keyframes suryaAnim{
+    from{
+        transform: translateY(10px);
+    }
+    to{
+        transform: translateY(100px);
+    }
+}
+.surya{
+   margin-top: 800px;
+   margin-left: 850px;
+   animation-name: suryaAnim;
+   animation-duration: 5s;
+   animation-delay: 1s;
+   animation-direction: reverse;
+   animation-iteration-count: infinite;
+   
+}
+
+@keyframes suryaAnim1{
+    from{
+        transform: scale(2,3);
+    }
+    to{
+        transform: scale(4,5);
+    }
+}
+.surya1{
+   margin-top: 700px;
+   margin-left: 650px;
+   animation-name: suryaAnim1;
+   animation-duration: 5s;
+   animation-delay: 1s;
+   animation-direction: reverse;
+   animation-iteration-count: infinite;
+   
+}
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+.drop:nth-child(1) {
+  left: 5%;
+  animation-duration: 1s;
+}
+
+.drop:nth-child(2) {
+  left: 10%;
+  animation-duration: 1.5s;
+}
+
+.drop:nth-child(3) {
+  left: 20%;
+  animation-duration: 1.2s;
+}
+.drop:nth-child(4) {
+  left: 25%;
+  animation-duration: 1s;
+}
+
+.drop:nth-child(5) {
+  left: 30%;
+  animation-duration: 1.5s;
+}
+
+.drop:nth-child(6) {
+  left: 35%;
+  animation-duration: 1.2s;
+}
+.drop:nth-child(7) {
+  left: 40%;
+  animation-duration: 0.1s;
+}
+
+.drop:nth-child(8) {
+  left: 45%;
+  animation-duration: 1.5s;
+}
+
+.drop:nth-child(9) {
+  left: 50%;
+  animation-duration: 1.2s;
+}
+.drop:nth-child(10) {
+  left: 55%;
+  animation-duration: 1s;
+}
+
+.drop:nth-child(11) {
+  left: 60%;
+  animation-duration: 1.5s;
+}
+
+.drop:nth-child(12) {
+  left: 65%;
+  animation-duration: 1.2s;
+}
+.drop:nth-child(13) {
+  left: 70%;
+  animation-duration: 1s;
+}
+
+.drop:nth-child(14) {
+  left: 75%;
+  animation-duration: 1.5s;
+}
+
+.drop:nth-child(15) {
+  left: 80%;
+  animation-duration: 1.2s;
+}
+.drop:nth-child(16) {
+  left: 85%;
+  animation-duration: 1s;
+}
+
+.drop:nth-child(17) {
+  left: 90%;
+  animation-duration: 1.5s;
+}
+
+.drop:nth-child(18) {
+  left: 95%;
+  animation-duration: 1.2s;
+}
+.drop:nth-child(19) {
+  left: 100%;
+  animation-duration: 1s;
+}
+
+.drop:nth-child(20) {
+  left: 105%;
+  animation-duration: 1.5s;
+}
+
+.drop:nth-child(21) {
+  left: 110%;
+  animation-duration: 1.2s;
+}
+
+</style>
+<body style="background-image: url(./images/pexels-photo-440731.jpeg);">
+  <div class="rain">
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="drop"></div>
+    <div class="surya">
+        <img src="./images/plant.png">
+     </div>
+     <div class="surya1">
+        <img src="./images/plant.png">
+     </div>
+     <div class="surya2">
+        <img src="./images/plant.png">
+     </div>
+  </div>
+ 
+</body>
+</html>
