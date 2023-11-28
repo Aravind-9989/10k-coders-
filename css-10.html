@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .Main {
+      width: 300px;
+      display: grid;
+      grid-template-columns: 70px 70px 70px 70px;
+      column-gap: 5px;
+      grid-template-rows: 70px 70px 70px 70px 70px;
+      row-gap: 5px;
+      outline-offset: 5px;
+      outline-width: 10px;
+      outline-style: outset;
+      margin: 40px auto;
+    }
+    .items {
+      background-color: lightgreen;
+      border: 2px solid;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+
+    }
+
+    h1 {
+      text-align: center;
+      border: 2px solid grey;
+      background-color: aquamarine;
+    }
+    body {
+      background-color: darkcyan;
+    }
+    .item1 {
+      grid-column: span 4;
+      text-align: right;
+    }
+    .img {
+      position: relative;
+      top: 15px;
+    
+    }
+  </style>
+  <body>
+    <h1>Calculator</h1>
+    <br />
+    <div class="Main">
+      <div class="items item1">
+        <img
+          src="https://img.icons8.com/?size=80&id=yKvN0g2dXGcz&format=png"
+          width="50px"
+        />
+      </div>
+
+      <div class="items" style="color: brown">AC</div>
+      <div class="items" style="color: brown">
+        <img
+          src="https://img.icons8.com/?size=50&id=UhociNVMiEEF&format=gif"
+          width="30"
+        />
+      </div>
+      <div class="items" style="color: brown">%</div>
+      <div class="items" style="color: brown">/</div>
+      <div class="items" style="color: brown">7</div>
+      <div class="items" style="color: brown">8</div>
+      <div class="items" style="color: brown">9</div>
+      <div class="items" style="color: brown">*</div>
+      <div class="items" style="color: brown">4</div>
+      <div class="items" style="color: brown">5</div>
+      <div class="items" style="color: brown">6</div>
+      <div class="items" style="color: brown">-</div>
+      <div class="items" style="color: brown">1</div>
+      <div class="items" style="color: brown">2</div>
+      <div class="items" style="color: brown">3</div>
+      <div class="items" style="color: brown">+</div>
+      <div class="items" style="color: brown">
+        <img src="https://img.icons8.com/?size=48&id=zKgFXOBPwQpD&format=png" />
+      </div>
+      <div class="items" style="color: brown">0</div>
+      <div class="items" style="color: brown">.</div>
+      <div class="items" style="color: brown">=</div>
+    </div>
+  </body>
+</html>
