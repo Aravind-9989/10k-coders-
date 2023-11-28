@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .Bro{
+    border: 5px solid ;
+   background-color: gray;
+  }
+h1{
+  background-color: cadetblue;
+  font-size: xx-large;
+  text-align: center;
+}
+.hey{
+    border: 2px solid gray;
+    height: 920px;
+    width:340px;
+    padding: 20px;
+ 
+   
+}
+.tr{
+   border: 2px solid black;
+    display: inline-block;
+    height:30px;
+    width: 300px;
+    margin-top: 10px;
+      text-align: center;
+    
+}
+.tr:hover{
+  background-color: rgb(161, 28, 28);
+
+}
+.tr{
+  color: chocolate;
+}
+.td{
+ display: none;
+  position: absolute;
+  left: 490px;
+  top:150px;
+}
+
+.S1:checked ~.td{
+      display: block; 
+      height: 100px;
+      width: 200px;
+      background-color: aqua;
+      transform:none; 
+}
+.S2:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      transform:rotate(10deg);
+}
+.S3:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:rotate(45deg);
+}
+     
+.S4:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:rotatex(45deg);
+     
+}
+.S5:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:rotatex(100deg);
+     
+}
+.S6:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:rotateY(45deg);
+
+}
+   
+.S7:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:rotateY(80deg);
+      
+}
+.S8:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:skew(20deg,20deg);
+      
+     
+}
+.S9:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:skew(30deg,30deg);
+      
+}
+.S10:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:skewx(30deg);      
+}
+.S11:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:skewx(40deg);      
+}
+.S12:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:skewy(30deg);
+     
+}
+.S13:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:skewy(40deg);
+      
+}
+.S14:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Translate:(20px,10px);
+
+}
+.S15:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Translate:(20px,20px);
+      
+}
+.S16:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:Scale(2,2);
+      
+}
+.S17:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:scale(2,3);
+      
+}
+.S18:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:Matrix(0.866,0.7,-0.8,0.866,0,0);
+     
+}
+.S19:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:Matrix(0.586,0.8,-0.8,0,0.586,0,0);
+     
+}
+.S20:checked ~.td{
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: aqua;
+      Transform:Matrix(0.586,0.8,-0.8,0.586,0,0);
+      
+}
+.sid{
+  background-color: burlywood;
+
+
+}
+</style>
+<body>
+    <h1>Css Transforms table</h1>
+    <div class="Bro">
+  <div class="hey">
+    <div class="sid"><input type="radio" name="One" id="1" class="S1">
+     <div class="tr">1Transform:none</div>
+    <div class="td">Everyday is a second chance to prove yourself</div>
+
+     <input type="radio" name="One" id="2" class="S2">
+    <div class="tr">2Transform:rotate(10deg)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="3" class="S3">
+    <div class="tr">3Transform:rotate(45deg)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="4" class="S4">
+    <div class="tr">4Transform:rotatex(45deg)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="5" class="S5">
+    <div class="tr">5Transform:rotatex(100deg)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="6" class="S6">
+    <div class="tr">6Transform:rotateY(45deg)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="7" class="S7">
+    <div class="tr">7Transform:rotateY(80deg)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="8" class="S8">
+    <div class="tr">8Transform:skew(20deg,20deg)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="9" class="S9">
+    <div class="tr">9Transform:skew(30deg,30deg)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="10" class="S10">
+    <div class="tr">10Transform:skewx(30deg)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="11" class="S11">
+    <div class="tr">11Transform:skewx(40deg)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="12" class="S12">
+    <div class="tr">12Transform:skewy(30deg)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="13" class="S13">
+    <div class="tr">13Transform:skewy(40deg)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="14" class="S14">
+    <div class="tr">14Translate:(20px,10px)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="15" class="S15">
+    <div class="tr">15Translate:(20px,20px)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="16" class="S16">
+    <div class="tr">16Transform:Scale(2,2)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="17" class="S17">
+    <div class="tr">17Transform:scale(2,3)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="18" class="S18">
+    <div class="tr">18Transform:Matrix(0.866,0.7,-0.8,0.866,0,0)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="19" class="S19">
+    <div class="tr">19Transform:Matrix(0.586,0.8,-0.8,0,0.586,0,0)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+
+   <input type="radio" name="One" id="20" class="S20">
+    <div class="tr">20Transform:Matrix(0.586,0.8,-0.8,0.586,0,0)</div>
+   <div class="td">Everyday is a second chance to prove yourself</div>
+  </div>
+  </div>
+</div>
+</body>
+</html>
