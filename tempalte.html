@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+  .s1{
+    border: 2px solid black;
+    background-color:white;
+    position: absolute;
+    top:300px;
+    margin-left: 300px;
+    
+
+  }
+ .s5{
+  text-align: center;
+ 
+ }
+ body{
+  background-color: white;
+  border: 2px solid black;
+height:3600px ;
+ }
+ .b1{
+  position: relative;
+margin-left: 820px;
+bottom: 700px;
+ }
+ .b2{
+  position: relative;
+  margin-left: 1240px;
+ bottom: 1000px;
+ }
+ .b3{
+  position: relative;
+margin-left: 820px;
+bottom: 990px;
+ }
+ .b5{
+  margin-left: 190px;
+ }
+ .b4{
+  position: relative;
+  margin-left: 1240px;
+ bottom: 1285px;
+ }
+ .b6{
+  margin-left: 150px;
+ }
+.b7{
+  position: relative;
+  margin-left: 10%;
+  top: -1200px;
+  
+}
+.b10{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.b11{
+  position: relative;
+  top: -1150px;
+  border: 2px solid black;
+  margin-left: 200px;
+  width: 1400px;
+  height: 200px;
+  background-color:aqua; 
+}
+.b12{
+  position: relative;
+  top: -1100px;
+  margin-left: 200px;
+}
+.b13{
+  position: relative;
+  top: -1000px;
+  text-align: center;
+  background-color: gray;
+  font-size: xx-large;
+  
+}
+.nav-pills .nav-item .nav-link.active{
+  background-color: orangered;
+  color: whitesmoke;
+}
+a:hover{
+    background-color: red !important;
+    color: white !important;
+}
+ul{
+  background-color: black;
+  
+}
+.pick{
+  border: 1px solid grey;
+  opacity: 0.5;
+}
+.to{
+  position: absolute;
+  top: 98px;
+  right: 30%;
+}
+button:hover{
+  opacity: 0.7;
+}
+/* box content */
+.container{
+    position: absolute;
+    top: 250px;
+    left: 140px;
+    background-color: white;
+    padding-bottom: 5px;
+    padding-right: 0%;
+     
+   }
+   .b14{
+    position: absolute;
+    top: 200px;
+   color:aqua;
+    top: 1980px;
+    font-size: xx-large;
+   }
+.b15{
+  position:absolute;
+  color: aqua;
+  font-size: xx-large;
+  z-index: +5;
+  top: 250px;
+
+}
+.b17{
+  color: aqua;
+  font-size: xx-large;
+  position: absolute;
+  top: 250px;
+}
+.b16{
+  color: aqua;
+  font-size: xx-large;
+  position: absolute;
+  top: 250px;
+}
+.b18{
+  color: aqua;
+  font-size: xx-large;
+  position: absolute;
+  top: 250px;
+}
+.b19,.b20,.b21,.b22:active{
+  background-color: red;
+ 
+}
+
+
+
+</style>
+<body style="background: fixed;" >
+  <div class="Aru">
+        <a href="#" style="text-decoration: none;"><i class="fa fa-map-marker" style="font-size: xx-large;"></i>&nbsp;&nbsp;<b style="font-size: xx-large;">Logo</b></a>
+        <i style="top: 20px; margin-left: 1920px; font-size: xx-large; bottom: 1px;position: absolute; "class="fa fa-search"style= "margin-left: 1920px; font-size: xx-large;"></i>
+       <div> <img src="https://media.istockphoto.com/id/1347665170/photo/london-at-sunset.webp?b=1&s=170667a&w=0&k=20&c=d86MWmxOCDEC_ax8GfUeaxzEFcUGKm_q1b-MnDPA7Eg=" style="margin-left: 20px;" width="1920px "></div>
+  </div>
+  <div class="s1">
+    <div  class="container">
+      <ul class="nav nav-tabs">
+        <li class="active" ><a data-toggle="tab" href="#home"><b>Flights</b></a></li>
+        <li class="two"><a data-toggle="tab" href="#menu1"><b>Hotel</b></a></li>
+        <li><a data-toggle="tab" href="#menu2"><b>Rental</b></a></li>
+        
+      </ul>
+    <!-- flight content-->
+      <div  class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <h3>Travel the world with us</h3>
+          <p>From</p>
+          <input style="text-align: center;" type="text" placeholder="departing from">
+          <br>
+          <br>
+          <div class="to">
+            <p>To</p>
+          <input style="text-align: center;" type="text" placeholder="arraiving at">
+          </div>
+  
+          <button style="background-color: grey;
+          color: white; border: none; " >search and find dates</button>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+          <h3>Find the best hotels</h3>
+          <p>Book a hotel with us and get the best fares and promotions.
+    <br><br>
+            We know hotels - we know comfort.</p>
+            <button style="background-color: grey;
+            color: white; border: none;" >search hotels</button>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <h3>Best car rental in the world!</h3>
+          <p> <span style="background-color: orangered;">DISCOUNT!</span> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs.</p>
+          
+          <div class="pick">pick-up point</div>
+          <br>
+          <button style="background-color: grey;
+          color: white; border: none;">search availability</button>
+        </div>
+        
+      </div>
+    </div>
+   </div>
+
+<div class="b6">
+  <h2>Good Offers Right Now</h2>
+  <h3>Up to 50% discount</h3>
+</div>
+ <div class="b5">
+    <img src="./images/cinqueterre.jpg" height="700px" width="600px">
+    <div class="b14">Cinque Terre</div>
+  </div>
+  <div class="b1">
+    <img src="./images/newyork2.jpg">
+    <div class="b15">New York</div> 
+  </div>
+  <div class="b2">
+<img src="./images/sanfran.jpg">
+<div class="b16">San Francisco</div>
+  </div>
+  <div class="b3">
+    <img src="./images/pisa.jpg">
+    <div class="b17">Pisa</div>
+  </div>
+  <div class="b4">
+    <img src="./images/paris.jpg">
+    <div class="b18">Paris</div>
+  </div>
+  <br>
+  <br>
+<div class="b7">
+  <h2>Explore Nature</h2>
+  <h5>Travel with us and see nature at its finest.</h5>
+  <div class="b10">
+    <div class="b8">
+      <img src="./images/ocean2.jpg" width="700px">
+      <h1>West Coast, Norway</h1>
+      <h2>Roundtrip from $79</h2>
+      <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+      <input type="button" value="Buy tickets" class="b20">
+    </div>
+    <div class="b9">
+      <img src="./images/mountains2.jpg" width="700px">
+      <h1>Mountains, Austria</h1>
+      <h2>One-way from $39</h2>
+      <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+      <input type="button" value="Buy tickets" class="b19">
+    </div>
+  </div>
+ </div>
+<div class="b11">
+  <h1 style="color: white;">&nbsp;&nbsp;Get the best offers first!</h1>
+  <p>&nbsp;&nbsp;E-mail</p>
+  <form>&nbsp;
+    <input type="E-mail"id="text" placeholder="Your email address" style="color: white;">
+  </form>
+  <br>
+  &nbsp;&nbsp; <input type="button" value="Subscribe" class="b21">
+</div>
+<div class="b12">
+<h1>Contact</h1>
+<h2>Let us book your next trip!</h2>
+<p><i class="fa fa-map-marker"></i>&nbsp;Chicago, US</p>
+<p><i class="fa fa-phone"></i>&nbsp;Phone: +00 151515</p>
+<p> <i class="fa fa-envelope"></i>&nbsp;Email: mail@mail.com</p>
+<form>
+  <input type="Name" id="text" placeholder="Name" style="width: 1400px; height: 50px;"><br><br>
+  <input type="Email" idE="text" placeholder="Email" style="width: 1400px; height: 50px;"><br><br>
+  <input type="Message" id="text" placeholder="Message"style="width: 1400px; height: 50px;"><br><br>
+  <input type="button" value="Send message" class="b22">
+</form>
+</div>
+<footer class="b13">
+  <p>Find Us On</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>&nbsp;
+  <i class="fa fa-instagram w3-hover-opacity"></i>&nbsp;
+  <i class="fa fa-snapchat w3-hover-opacity"></i>&nbsp;
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>&nbsp;
+  <i class="fa fa-twitter w3-hover-opacity"></i>&nbsp;
+  <i class="fa fa-linkedin w3-hover-opacity"></i>&nbsp;
+</footer>
+</body>
+</html>
